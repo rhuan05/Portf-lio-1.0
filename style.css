@@ -440,4 +440,7 @@ form p{
     .projetosSec p{
         width: 300px;
     }
+    .contatoSec p{
+        width: 200px;
+    }
 }
