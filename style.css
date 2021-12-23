@@ -212,7 +212,7 @@ h2{
 .contatoSec button{
     margin: auto;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
     background: rgba(115, 137, 211, 1);
     border: none;
@@ -221,6 +221,17 @@ h2{
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     width: 300px;
+    margin-bottom: 50px;
+}
+form p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: -40px;
     margin-bottom: 50px;
 }
 @media(max-width: 1024px){
