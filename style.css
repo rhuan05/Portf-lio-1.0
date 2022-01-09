@@ -79,6 +79,20 @@ h2{
     cursor: pointer;
     text-decoration: none;
 }
+.textosApresentacao--redes{
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.textosApresentacao--redes a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    transition: 1s;
+}
+.textosApresentacao--redes a:hover{
+    color: rgba(115, 137, 211, 1);
+}
 .conteudosConhecimentos{
     display: flex;
     justify-content: space-evenly;
@@ -106,6 +120,7 @@ h2{
     margin: 0px 20px 0px 20px;
 }
 .containerTecnologia{
+    width: 200px;
     margin: 0px 50px 0px 50px;
 }
 .imagensConhecimentos h3{
@@ -138,7 +153,6 @@ h2{
     display: flex;
     transition: 1s;
 }
-
 .projetosSec{
     height: 100vh;
     text-align: center;
@@ -163,6 +177,9 @@ h2{
     font-family: 'Open Sans', sans-serif;
     color: white;
     margin-bottom: 10px;
+}
+.conhecimentosSec span{
+    font-size: 15px;
 }
 .areaProjetos img{
     width: 350px;
@@ -249,7 +266,7 @@ form p{
         width: 100%;
         top: 70px;
         right: 0;
-        background: rgb(209, 209, 209);
+        background: white;
         height: 0px;
         z-index: 1000;
         overflow: hidden;
@@ -442,5 +459,13 @@ form p{
     }
     .contatoSec p{
         width: 200px;
+    }
+    .containerTecnologia{
+        width: 100px;
+    }
+    .textosApresentacao--redes{
+        margin-top: 20px;
+        font-size: 20px;
+        cursor: pointer;
     }
 }
