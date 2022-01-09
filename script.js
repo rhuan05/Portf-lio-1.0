@@ -11,17 +11,17 @@ if(widthTela <= 410){
         if(scrollProjetos == 0){
             scrollProjetos = 0;
         } else{
-            scrollProjetos = scrollProjetos + 205;
+            scrollProjetos = scrollProjetos + 200;
             slider.style.marginLeft = scrollProjetos + 'px';
         };
     }
 
     function setaDireita(){
-        if(scrollProjetos <= -410){
+        if(scrollProjetos <= -600){
             scrollProjetos = 0;
             slider.style.marginLeft = scrollProjetos + 'px';
         } else{
-            scrollProjetos = scrollProjetos - 205;
+            scrollProjetos = scrollProjetos - 200;
             slider.style.marginLeft = scrollProjetos + 'px';
         };
     }
@@ -36,7 +36,7 @@ if(widthTela <= 410){
     }
 
     function setaDireita(){
-        if(scrollTech == -600){
+        if(scrollTech == -900){
             scrollTech = 0;
             slider.style.marginLeft = scrollTech + 'px';
         } else{
